@@ -8,6 +8,7 @@ I think it's a pretty sight on my terminal :)
 
 ## Preview
 ![quote](https://user-images.githubusercontent.com/74004229/117615065-bcefc280-b158-11eb-91b3-0bbd82891569.png)
+![psmq](https://user-images.githubusercontent.com/74004229/117637608-96a14580-b19f-11eb-8900-36b6fa63cd35.gif)
 
 (Terminal: Alacritty, Prompt: Starship, Font: BlexMono Nerd Font Mono)
 
