@@ -21,8 +21,9 @@ If you want the repo to be at a different place, you have to change the path to 
 
 ## Usage
 ```
-psmq        # for printing a random quote
-psmq -h     # display help menu
+psmq            # for printing a random quote
+psmq -h         # display help menu
+psmq -l [LANG]  # select language
 ```
 That's it. I couldn't think of any other options to add since it is random by design.
 ## TODO
