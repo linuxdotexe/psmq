@@ -18,7 +18,7 @@ psmq
 ```
 That's it. I couldn't think of any options to add since it is random by design.
 ## TODO
-- [ ] Add a help page
+- [x] Add a help page
 - [ ] Makepkg installation
 - [ ] publish to AUR
 ## Licensing

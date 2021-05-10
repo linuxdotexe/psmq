@@ -1,7 +1,15 @@
 #!/bin/sh
 
-read -r quote < <(shuf quotes.txt)
-author=${quote##* - }
-text=${quote% - *}
-printf "🍿 "
-printf '\e[93m%s \e[94m- %s\e[m\n' "$text" "$author"
+if [ "$1" == "-h" ]; then
+  echo "Usage: psmq [option]"
+  echo "    -h,    print this menu"
+  echo "    There are no other options except the -h option."
+  exit 0
+else
+    read -r quote < <(shuf quotes.txt)
+    author=${quote##* - }
+    text=${quote% - *}
+    printf "🍿 "
+    printf '\e[93m%s \e[94m- %s\e[m\n' "$text" "$author"
+    exit 0
+fi
