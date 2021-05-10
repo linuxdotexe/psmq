@@ -1,15 +1,68 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-if [ "$1" == "-h" ]; then
-  echo "Usage: psmq [option]"
-  echo "    -h,    print this menu"
-  echo "    There are no other options except the -h option."
-  exit 0
-else
-    read -r quote < <(shuf ~/.local/bin/psmq/quotes.txt)
+function show_help ()
+{
+    printf "Usage: psmq [options [parameters]]\n"
+    printf "\n"
+    printf "Options:\n"
+    printf "    -h, Print this menu\n"
+    printf "    -l LANG, Choose language, default English\n"
+    printf "\n"
+
+    return 0
+}
+
+function run ()
+{
+    read -r quote < <(shuf $1)
     author=${quote##* - }
     text=${quote% - *}
     printf "🍿 "
     printf '\e[93m%s \e[94m- %s\e[m\n' "$text" "$author"
-    exit 0
+    return 0
+}
+
+if [ ! -z "$1" ]; then
+    while [ ! -z "$1" ]; do
+        case "$1" in
+            -h)
+                show_help
+                ;;
+            -l)
+                shift
+                LANG="$1" # Take language
+                case "$LANG" in
+                    es)
+                        #$PATH = 
+                        run ~/.local/bin/psmq/quotes_es.txt                        
+                        ;;
+                    *)
+                    echo "Incorrect input provided"
+                    show_help
+                esac
+                ;;
+            *)
+                echo "Incorrect input provided"
+                show_help
+        esac
+
+    shift
+done
+else
+    run ~/.local/bin/psmq/quotes.txt
 fi
+
+
+#if [ "$1" == "-h" ]; then
+  #echo "Usage: psmq [option]"
+  #echo "    -h,    print this menu"
+  #echo "    There are no other options except the -h option."
+  #exit 0
+#else
+    #read -r quote < <(shuf ~/.local/bin/psmq/quotes.txt)
+    #author=${quote##* - }
+    #text=${quote% - *}
+    #printf "🍿 "
+    #printf '\e[93m%s \e[94m- %s\e[m\n' "$text" "$author"
+    #exit 0
+#fi
