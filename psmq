@@ -1,0 +1,7 @@
+#!/bin/sh
+
+read -r quote < <(shuf quotes.txt)
+author=${quote##* - }
+text=${quote% - *}
+printf "🍿 "
+printf '\e[93m%s \e[94m- %s\e[m\n' "$text" "$author"
