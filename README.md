@@ -1,7 +1,7 @@
 # psmq
 psmq - print some movie quotes
 
-Pretty sure no one asked for this, but here goes. This little shell script takes a bunch of quotes from the "quotes.txt" file, picks one at random with the shuf command, and prints it with some colours (because a kind stranger from reddit helped.)
+Pretty sure no one asked for this, but here goes. This little shell script takes a bunch of quotes from the "quotes.txt" file, picks one at random with the shuf command, and prints it with some colours (because two kind strangers from reddit helped. Thank you u/Schreq and u/am_katzest for the help.)
 
 I curated some of my favourite quotes from some hollywood movies, TV shows, web series and anime and added to the quotes.txt
 I think it's a pretty sight on my terminal :)
