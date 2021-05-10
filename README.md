@@ -6,6 +6,11 @@ Pretty sure no one asked for this, but here goes. This little shell script takes
 I curated some of my favourite quotes from some hollywood movies, TV shows, web series and anime and added to the quotes.txt
 I think it's a pretty sight on my terminal :)
 
+## Preview
+![quote](https://user-images.githubusercontent.com/74004229/117615065-bcefc280-b158-11eb-91b3-0bbd82891569.png)
+
+(Terminal: Alacritty, Prompt: Starship, Font: BlexMono Nerd Font Mono)
+
 ## Requirements
 Emoji support in the terminal. A package like ```noto-fonts-emoji``` would do.
 
