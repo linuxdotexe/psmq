@@ -6,7 +6,7 @@ if [ "$1" == "-h" ]; then
   echo "    There are no other options except the -h option."
   exit 0
 else
-    read -r quote < <(shuf quotes.txt)
+    read -r quote < <(shuf ~/.local/bin/psmq/quotes.txt)
     author=${quote##* - }
     text=${quote% - *}
     printf "🍿 "

@@ -10,7 +10,8 @@ I think it's a pretty sight on my terminal :)
 Emoji support in the terminal. A package like ```noto-fonts-emoji``` would do.
 
 ## Installation
-For now, just clone the repo and add it to the path. After adding psmq file to the path, change the "quotes.txt" to the full path of the file.
+For now, just clone the repo (suggested to clone at ~/.local/bin) and add it to the path.
+If you want the repo to be at a different place, you have to change the path to the "quotes.txt" file specified in the program.
 
 ## Usage
 ```
