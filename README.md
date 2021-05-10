@@ -14,9 +14,10 @@ For now, just clone the repo and add it to the path. After adding psmq file to t
 
 ## Usage
 ```
-psmq
+psmq        # for printing a random quote
+psmq -h     # display help menu
 ```
-That's it. I couldn't think of any options to add since it is random by design.
+That's it. I couldn't think of any other options to add since it is random by design.
 ## TODO
 - [x] Add a help page
 - [ ] Makepkg installation
