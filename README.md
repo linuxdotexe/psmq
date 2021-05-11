@@ -26,6 +26,12 @@ psmq -h         # display help menu
 psmq -l [LANG]  # select language
 ```
 That's it. I couldn't think of any other options to add since it is random by design.
+
+Or, you can just use lolcat without even cloning this repo like so:
+```
+curl -s "https://raw.githubusercontent.com/sainivasmangu/psmq/master/quotes.txt" | shuf -n 1 | lolcat
+```
+Or choose quotes_es.txt for the spanish quotes. idea by u/pi-star 
 ## TODO
 - [x] Add a help page
 ## Licensing
