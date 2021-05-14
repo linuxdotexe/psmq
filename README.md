@@ -34,5 +34,8 @@ curl -s "https://raw.githubusercontent.com/sainivasmangu/psmq/master/quotes.txt"
 Or choose quotes_es.txt for the spanish quotes. idea by u/pi-star 
 ## TODO
 - [x] Add a help page
+
+## Why?
+I was extremely bored and didn't have better things to do :)
 ## Licensing
 [AGPL V3.0](https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0))
