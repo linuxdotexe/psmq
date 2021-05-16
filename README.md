@@ -35,6 +35,7 @@ curl -s "https://raw.githubusercontent.com/sainivasmangu/psmq/master/quotes.txt"
 Or choose quotes_es.txt for the spanish quotes. idea by u/pi-star 
 ## TODO
 - [x] Add a help page
+- [x] One command installer
 
 ## Why?
 I was extremely bored and didn't have better things to do :)
