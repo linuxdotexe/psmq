@@ -37,6 +37,28 @@ Or choose quotes_es.txt for the spanish quotes. idea by u/pi-star
 - [x] Add a help page
 - [x] One command installer
 
+### Add quotes from the following movies
+
+- [ ] True Detective
+- [ ] The Batman
+- [ ] The Dark Knight Trilogy
+- [ ] The Girl With The Dragon Tattoo
+- [ ] Demolition
+- [ ] Knives Out
+- [ ] Se7ev
+- [ ] I Saw The Devil
+- [ ] There Will Be Blood
+- [ ] Donnie Darko
+- [ ] Mystic River
+- [ ] The Eternal Sunshine Of A Spotless Mind
+- [ ] Whiplash
+- [ ] The Social Network
+- [ ] Her
+- [ ] Zodiac
+- [ ] Enemy
+- [ ] Prisoners
+- [ ] Nightcrawler
+
 ## Why?
 I was extremely bored and didn't have better things to do :)
 ## Licensing
