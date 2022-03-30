@@ -18,7 +18,7 @@ function run ()
     author=${quote##* - }
     text=${quote% - *}
     printf "🍿 "
-    printf '\e[93m%s \e[94m- %s\e[m\n' "$text" "$author"
+    printf '\e[3m\e[93m%s \e[94m- %s\e[m\n' "$text" "$author"
     return 0
 }
 
